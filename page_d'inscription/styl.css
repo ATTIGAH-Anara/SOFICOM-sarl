@@ -1,0 +1,190 @@
+/* ++++++++++ Resposive +++++++++ */
+@media screen and (max-width:450px) {
+    body{
+        width: 78%;
+        margin-left:auto;
+        margin-right:auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .auto{
+        margin-left: 0px;
+    }
+    #logo{
+    }
+    .plogo{
+    }
+    /* section 2 Style */
+    /* second grid */
+    .flex-input{
+        width: 100%;
+    }
+    .flex-input2{
+        width: 250%;
+    }
+    .un{
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+    .deux{
+        grid-column: 2/2;
+        grid-row: 1;
+    }
+    .trois{
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+    .quatre{
+        grid-column: 2/2;
+        grid-row: 2;
+    }
+}
+
+@media screen and (min-width:450px) {
+    body{
+        width: 75%;
+    }
+    .auto{
+        margin-left: 150px;
+    }
+    .plogo{
+        border: 2px solid white;
+                
+    }
+    #logo{
+        position:absolute;
+    }
+
+    /* section 1 */
+    .w-5{
+        margin-left: 25%;
+    }
+    .w-8{
+        margin-left:15% ;
+    }
+     /* section 2 Style */
+    /* second grid */
+    .flex-input{
+        /* width: 100%; */
+    }
+    .un{
+        grid-column: 1/3;
+        grid-row: 1;
+    
+    }
+    .deux{
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+    .trois{
+        grid-column: 3/3;
+        grid-row: 1;
+    }
+    
+    .grid{
+        grid-template-columns: auto 1fr;
+    }
+}
+
+/* ++++++++++ header styl +++++++++ */
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+}
+.p_header{
+    font-weight:900;
+}
+
+#logo{
+    width: 105px;
+    height: 70px;
+    
+}
+/* ++++++++++++ section 1 styl ++++++++++ */
+
+.center{
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: auto;
+}  
+
+.bgrey{
+    display: inline-block;
+    background-color: #dae2f3;
+    border: 0.2cm solid #dae2f3;
+    box-shadow: -0.8px 2px black ;
+
+}
+.w-5{
+    margin-bottom: 10px;
+}
+.borange{
+    background-color: #ed7d31;
+}
+.bblue{
+    background-color: #001f5e;
+    color: white;
+}
+/* ++++++++++++ section 2 styl ++++++++++++ */
+    
+.rens-p{
+    background-color: #dae2f3;
+    box-shadow: -0.8px 2px black;
+}
+    /* first grid */
+    
+.grid{
+    display: grid;
+    
+    
+}
+
+    /* second grid */
+.grid2{
+    display: grid;
+    column-gap: 10%;
+} 
+.flex{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+
+
+.enderline{
+    text-decoration: underline;
+}
+/* table  and submit */
+
+.max{
+    width: 96.5%;
+}
+.p-submit{
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.submit{
+   
+    padding : 0.8em;
+    border-radius: 15%;
+    background-color: chartreuse;
+}
+
+/* ++++++++ Footer +++++++ */
+.cred{
+    color:#c00000;
+    margin-bottom: auto;
+    text-align: center;
+}
+.cblue{
+    color: #325395;
+    margin-top:auto;
+    text-align: center;
+}
+img{
+    width: 15px;
+    height: 15px;
+} 
