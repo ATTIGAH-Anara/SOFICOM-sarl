@@ -159,6 +159,7 @@ body{
 
 .max{
     width: 96.5%;
+    border: none;
 }
 .p-submit{
     width: 15%;
