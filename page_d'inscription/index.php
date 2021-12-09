@@ -23,7 +23,7 @@
         }
         tr,th,td,caption{
         border: 1px solid black;
-    }
+        }
     </style> 
 </head>
 <body>
@@ -57,62 +57,62 @@
         <P class="rens-p">
             RENSEIGNEMENT SUR VOTRE SOCIETE
         </P>
-        <form action="POST">
+        <form action="inscription.php" method="POST">
             <!-- First grid -->
                 <p class="grid">
-                    <label for="" class="enderline">Dénomination social : </label> <input type="text">
+                    <label for="" class="enderline">Dénomination social : </label> <input type="text" name="denomination_social">
                 </p>
                 <p class="grid">
-                    <label for="">Adresse :</label> <input type="text">
+                    <label for="">Adresse :</label> <input type="text" name="addresse">
                 </p>
             <!-- second grid -->
                 <div class="grid2">
                     <p class="flex un">
-                        <label for="">B.P </label> : <input class="flex-input" type="text">
+                        <label for="">B.P </label> : <input class="flex-input" type="text" name="BP">
                     </p>
                     <p class="flex deux">
-                        <label for="">Ville </label> : <input class="flex-input" type="text">
+                        <label for="">Ville </label> : <input class="flex-input" type="text" name="ville">
                     </p>
                    <p class="flex trois">
-                        <label for=""> Quartier </label> : <input class="flex-input" type="text">
+                        <label for=""> Quartier </label> : <input class="flex-input" type="text" name="quartier">
                    </p>
                 
                     <p class="flex">
-                        <label for="">N.I.F </label> : <input class="flex-input" type="text">
+                        <label for="">N.I.F </label> : <input class="flex-input" type="text" name="NIF">
                     </p>
                     <p class="flex">
-                        <label for="">Email </label> : <input class="flex-input" type="email">
+                        <label for="">Email </label> : <input class="flex-input" type="email" name="email">
                     </p>
                     <p class="flex">
-                        <label for="">Tél </label> : <input class="flex-input" type="tel">
+                        <label for="">Tél </label> : <input class="flex-input" type="tel" name="tel1">
                     </p>
                     <p class="flex">
-                        <label for="">RCCM </label> : <input class="flex-input" type="text">
+                        <label for="">RCCM </label> : <input class="flex-input" type="text" name="RCCM">
                     </p>
                 </div>
                 <p class="grid">
-                <label for="" class="enderline">Nom du responsable de l'entité : </label> <input type="text" >
+                <label for="" class="enderline">Nom du responsable de l'entité : </label> <input type="text" name="responsable_entite">
                 </p>
                 <div class="grid2">
                     <p class="un">
-                        <label for="">Tél </label> : <input class="flex-input" type="tel">
+                        <label for="">Tél </label> : <input class="flex-input" type="tel" name="tel2">
                     </p>
                     <p class="deux">
-                        <label for="">Email perso</label> : <input class="flex-input" type="email">
+                        <label for="">Email perso</label> : <input class="flex-input" type="email" name="email_perso1">
                     </p>
                 </div>
                 <p class="grid">
-                    <label for="">Personne responsable des frais du séminaire :</label> <input type="text">
+                    <label for="">Personne responsable des frais du séminaire :</label> <input type="text" name="responsable_frais">
                 </p>
                 <div class="grid2">
                     <p class="flex un">
-                        <label for="">Foction </label> : <input class="flex-input" type="text">
+                        <label for="">Foction </label> : <input class="flex-input" type="text" name="fonction">
                     </p>
                     <p class="flex deux">
-                        <label for="">Tél </label> : <input class="flex-input" type="tel">
+                        <label for="">Tél </label> : <input class="flex-input" type="tel" name="tel3">
                     </p>
                     <p class="grid" >
-                        <label for="">Email perso :</label><input class="flex-input" type="email">
+                        <label for="">Email perso 2:</label><input class="flex-input" type="email" name="email_perso2">
                     </p>
                     
                 </div>
@@ -131,28 +131,13 @@
                 <tr>
                     <td>01</td>
                     <td>
-                        <input type="text" class="max">
+                        <input type="text" class="max" name="nomprenom">
                     </td>
                     <td>
-                        <input type="text" class="max">
+                        <input type="text" class="max" name="fonction">
                     </td>
                     <td>
-                        <input type="text" class="max">
-                    </td>
-                    <td>
-                        
-                    </td>
-                </tr>
-                <tr>
-                    <td>02</td>
-                    <td>
-                        <input type="text" class="max">
-                    </td>
-                    <td>
-                        <input type="text" class="max">
-                    </td>
-                    <td>
-                        <input type="text" class="max">
+                        <input type="tel" class="max" name="contact">
                     </td>
                     <td>
                         

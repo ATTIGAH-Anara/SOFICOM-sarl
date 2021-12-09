@@ -1,6 +1,80 @@
+@media screen (min-width:450px) {
+    .w-8{
+        margin-left:15% ;
+    }
+}
+@media screen (max-width:450px) {
+    body{
+        background-color: red;
+        font-size:x-small;
+    }
+    h1{
+        font-size: 100%;
+    }
+}
+
+/* ++++++++++ heder style ++++++++++++ */
 body{
-    font-size:x-small;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
-h1{
-    font-size: 100%;
+#logo{
+    width: 95px;
+    height: 60px;
+
+    position:absolute;
 }
+.p_header{
+    font-weight:900;
+}
+.auto{
+    margin-left: 150px;
+}
+/* ++++++++++++++ */
+.center{
+    text-align: center;
+    font-weight:bolder;
+}
+input{
+    width: 95%;
+    display: inline-block;
+   
+}
+.right{
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: auto;
+}  
+
+.bgrey{
+    display: inline-block;
+    background-color: #dae2f3;
+    border: 0.2cm solid #dae2f3;
+    box-shadow: -0.8px 2px black ;
+
+}
+.bblue{
+    background-color: #001f5e;
+    color: white;
+}
+
+/* ++++++++ Footer +++++++ */
+.cred{
+    color:#c00000;
+    margin-bottom: auto;
+    text-align: center;
+}
+.cblue{
+    color: #325395;
+    margin-top:auto;
+    text-align: center;
+}
+img{
+    width: 15px;
+    height: 15px;
+} 
